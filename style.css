@@ -1,0 +1,282 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to right, #1b1f39, #2e335b);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero h1 .text-warning {
+    color: #ffc107;
+  }
+  
+  .hero .btn-success {
+    background-color: #4caf50;
+    border: none;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* ///////////////////////// */
+  /* Favorites Section Styles */
+.favorites {
+    background-color: #f9f9f9;
+  }
+  
+  .favorites h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .favorites .play-btn {
+    font-size: 4rem;
+    color: #4caf50;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .favorites .progress {
+    background-color: #e9ecef;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .favorites .progress-bar {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  /* /////////////////////////// */
+  /* ///////Blog///// */
+  .blog-header {
+    background: #000;
+    color: #fff;
+    padding: 3rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+  .latest-news .card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment {
+    background-color: #111;
+    padding: 3rem 0;
+    margin: 20px;
+  }
+  
+  footer {
+    background-color: #111;
+  }
+  
+  footer a {
+    color: #aaa;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  /* ////////////////////////// */
+  /* /contact */
+  .contact-header {
+    background: #000;
+    color: #fff;
+    padding: 3rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+  .contact-form-section {
+    background-color: #f8f9fa;
+    margin: 50px;
+  }
+  .bg{
+    font-size: 20px;
+  }
+  footer {
+    background-color: #111;
+  }
+  
+  footer a {
+    color: #aaa;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  /* //////////////////// */
+  /* General Styles */
+.service-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.service-box:hover {
+  background-color: lightgreen;
+  transform: translateY(-5px);
+}
+
+.service-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.project-box {
+  background-color:lightgreen;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.project-box img {
+  border-radius: 15px;
+}
+
+.project-box:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.03);
+}
+
+h2 span {
+  color: #4caf50;
+}
+/* Testimonials Section */
+.testimonial-card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-icon {
+  color: #4caf50;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-rating i {
+  margin-right: 2px;
+}
+
+.testimonial-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+/* ///////////////about */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.about-us h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.about-us .highlight {
+  color:green;
+}
+
+.about-us p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.video-section h2 {
+  font-size: 46px;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.play-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: green;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+.case-studies h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.case-studies p {
+  color: #555;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #333;
+}
+
+.testimonial blockquote {
+  font-size: 18px;
+  color: #666;
+  position: relative;
+  padding-left: 30px;
+}
+
+.testimonial blockquote::before {
+  content: "“";
+  font-size: 40px;
+  color: #b4d330; /* Light green */
+  position: absolute;
+  left: 0;
+  top: -10px;
+}
+/* Services Section */
+.services .card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.services .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.services .btn {
+  margin-top: 10px;
+}
